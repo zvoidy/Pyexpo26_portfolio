@@ -1,12 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PyExpo26 Portfolio
 
-Currently, two official plugins are available:
+This is a modern portfolio web application for the PyExpo event, built with **React** and **Vite**. The project features a custom sticky header, responsive navigation, and raw CSS for styling (no CSS frameworks).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- ⚡️ Fast React + Vite setup
+- 📱 Responsive design for desktop and mobile
+- 📌 Sticky header with dual navigation bars (topbar and main navbar)
+- 🎨 Custom raw CSS (no Tailwind, no Bootstrap)
+- 🖼️ Logo and event branding
+- 🔗 Social and navigation links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. **Install dependencies:**
+	```bash
+	npm install
+	```
+2. **Run the development server:**
+	```bash
+	npm run dev
+	```
+3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+- `src/Components/Header.jsx` - Main header component (sticky, responsive)
+- `src/App.css` - Global and header-specific CSS
+- `src/assets/Logo/` - Logo images
+
+## Customization
+
+- Edit navigation links and content in `Header.jsx` as needed
+- Update styles in `App.css` for branding
+
+## Credits
+
+- Built with [React](https://react.dev/) and [Vite](https://vitejs.dev/)
+- PyExpo event branding and assets
+
+---
+For questions or contributions, please open an issue or pull request.
