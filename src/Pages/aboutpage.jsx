@@ -12,19 +12,16 @@ const AboutPage = () => {
             <div className="col-lg-6">
               <div className="row g-2">
                 <div className="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                  <div className="about-experience rounded" style={{ backgroundColor: 'rgb(245, 241, 241)' }}>
-                    <picture>
-                      <source media="(max-width: 768px)" srcSet="/img/About/laptop.webp" />
-                      <img src="/img/About/laptop.webp" alt="Experience Image" />
-                    </picture>
+                  <div className="about-experience rounded">
+                    <img src="/img/About/laptop.png" alt="Experience Image" />
                   </div>
                 </div>
 
                 <div className="col-6 wow fadeIn" data-wow-delay="0.1s">
-                  <div className="about-experience rounded">
+                  <div className="about-experience color-4 rounded">
                     <img 
                       className="img-fluid rounded" 
-                      src="/img/About/ipswhite.webp" 
+                      src="/img/About/ipswhite.png" 
                       alt="IPS Logo" 
                       loading="lazy" 
                       onLoad={(e) => e.target.parentNode.classList.add('loaded')}
@@ -33,10 +30,10 @@ const AboutPage = () => {
                 </div>
 
                 <div className="col-6 wow fadeIn" data-wow-delay="0.3s">
-                  <div className="about-experience rounded">
+                  <div className="about-experience color-3 rounded">
                     <img 
                       className="img-fluid rounded" 
-                      src="/img/About/kite.webp" 
+                      src="/img/About/kite.png" 
                       alt="KITE Logo" 
                       loading="lazy" 
                       onLoad={(e) => e.target.parentNode.classList.add('loaded')}
@@ -45,10 +42,10 @@ const AboutPage = () => {
                 </div>
 
                 <div className="col-6 wow fadeIn" data-wow-delay="0.5s">
-                  <div className="about-experience rounded">
+                  <div className="about-experience color-2 rounded">
                     <img 
                       className="img-fluid rounded" 
-                      src="/img/About/python.webp" 
+                      src="/img/About/python.png" 
                       alt="Python Logo" 
                       loading="lazy" 
                       onLoad={(e) => e.target.parentNode.classList.add('loaded')}
