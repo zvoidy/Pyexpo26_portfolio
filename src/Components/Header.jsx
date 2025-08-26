@@ -68,14 +68,14 @@ const Header = () => {
           </div>
           <div className={`nav-menu ${isMobileMenuActive ? 'mobile-active' : ''}`}>
             <ul>
-              <li><Link href="Home" className="active">Home</Link></li>
-              <li><Link href="About">About</Link></li>
-              <li><Link href="Speakers">Speakers</Link></li>
-              <li><Link href="Events">Events</Link></li>
-              <li><Link href="Domains">Domains</Link></li>
-              <li><Link href="Sponsers">Sponsors</Link></li>
-              <li><Link href="Pycrew">Pycrew</Link></li>
-              <li><Link href="FAQ">FAQ</Link></li>
+              <li><Link smooth offset={-90} to="Home" style={{ cursor: 'pointer'}}>Home</Link></li>
+              <li><Link smooth offset={-50} to="About" style={{ cursor: 'pointer'}}>About</Link></li>
+              <li><Link smooth offset={-120} to="Speakers" style={{ cursor: 'pointer'}}>Speakers</Link></li>
+              <li><Link smooth offset={-90} to="Events" style={{ cursor: 'pointer'}}>Events</Link></li>
+              <li><Link smooth offset={-90} to="Domains" style={{ cursor: 'pointer'}}>Domains</Link></li>
+              <li><Link smooth offset={-90} to="Sponsers" style={{ cursor: 'pointer'}}>Sponsors</Link></li>
+              <li><Link smooth offset={-90} to="Pycrew" style={{ cursor: 'pointer'}}>Pycrew</Link></li>
+              <li><Link smooth offset={-90} to="FAQ" style={{ cursor: 'pointer'}}>FAQ</Link></li>
               
             </ul>
           </div>
