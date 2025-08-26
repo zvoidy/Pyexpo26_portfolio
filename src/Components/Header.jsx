@@ -3,6 +3,7 @@ import PyexpoLogo from "/img/Logo/PyExpoLogo.png";
 import linkedin from "/img/Logo/linkedin.svg";
 import Instagram from "/img/Logo/instagram.svg";
 import { useState, useEffect } from 'react';
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
@@ -67,14 +68,14 @@ const Header = () => {
           </div>
           <div className={`nav-menu ${isMobileMenuActive ? 'mobile-active' : ''}`}>
             <ul>
-              <li><a href="#" className="active">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="speaker.html">Speakers</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#domains">Domains</a></li>
-              <li><a href="#sponsors">Sponsors</a></li>
-              <li><a href="#crew">Pycrew</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><Link href="Home" className="active">Home</Link></li>
+              <li><Link href="About">About</Link></li>
+              <li><Link href="Speakers">Speakers</Link></li>
+              <li><Link href="Events">Events</Link></li>
+              <li><Link href="Domains">Domains</Link></li>
+              <li><Link href="Sponsers">Sponsors</Link></li>
+              <li><Link href="Pycrew">Pycrew</Link></li>
+              <li><Link href="FAQ">FAQ</Link></li>
               
             </ul>
           </div>
