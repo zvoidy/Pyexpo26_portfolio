@@ -1,7 +1,7 @@
-import IpsLogo from "../assets/Logo/ips_white.webp";
-import PyexpoLogo from "../assets/Logo/PyExpoLogo.png";
-import linkedin from "../assets/Logo/linkedin.svg";
-import Instagram from "../assets/Logo/instagram.svg";
+import IpsLogo from "/img/Logo/ips_white.webp";
+import PyexpoLogo from "/img/Logo/PyExpoLogo.png";
+import linkedin from "/img/Logo/linkedin.svg";
+import Instagram from "/img/Logo/instagram.svg";
 import { useState, useEffect } from 'react';
 
 const Header = () => {
@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <>
       {/* Topbar */}
-      <div className="topbar" style={{ backgroundColor: "#100f45" }}>
+      <div className="topbar">
         <div className="topbar-content">
           {/* Left Section: Social Media */}
           <div className="social-section">
@@ -75,8 +75,11 @@ const Header = () => {
               <li><a href="#sponsors">Sponsors</a></li>
               <li><a href="#crew">Pycrew</a></li>
               <li><a href="#faq">FAQ</a></li>
-              <li className="login-btn"><a href="https://portal.pyexpo.co">Login</a></li>
+              
             </ul>
+          </div>
+          <div>
+            <button className="login-btn"><a href="https://portal.pyexpo.co">Login</a></button>
           </div>
         </div>
       </nav>
