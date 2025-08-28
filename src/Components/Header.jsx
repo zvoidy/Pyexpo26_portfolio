@@ -70,20 +70,20 @@ const Header = () => {
 
       {/* Navbar */}
       <nav className="sticky top-0 z-100 main-navbar">
-        <div className="mx-auto py-4 flex items-center justify-between px-10">
+        <div className="mx-auto py-4 flex items-center justify-evenly px-10">
           <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
             ☰
           </button>
           <div className="nav-logo">
             <a href="/" target="_blank">
-              <img src="/public/img/Logo/PyExpoLogo.png" className="h-15" alt="PYEXPO logo" />
+              <img src="/img/Logo/PyExpoLogo.png" className="h-15" alt="PYEXPO logo" />
             </a>
           </div>
           <div
             className={`nav-menu ${isMobileMenuActive ? "mobile-active" : ""}`}
           >
             <ul>
-              <li>
+              <li className="menu-active">
                 <Link
                   smooth
                   offset={-90}

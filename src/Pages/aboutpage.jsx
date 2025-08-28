@@ -18,10 +18,10 @@ const AboutPage = () => {
                 </div>
 
                 <div className="col-6 wow fadeIn" data-wow-delay="0.1s">
-                  <div className="about-experience color-4 rounded">
+                  <div className="about-experience color-3 rounded">
                     <img 
                       className="img-fluid rounded" 
-                      src="/img/About/ipswhite.png" 
+                      src="/img/About/kite.png" 
                       alt="IPS Logo" 
                       loading="lazy" 
                       onLoad={(e) => e.target.parentNode.classList.add('loaded')}
@@ -30,10 +30,10 @@ const AboutPage = () => {
                 </div>
 
                 <div className="col-6 wow fadeIn" data-wow-delay="0.3s">
-                  <div className="about-experience color-3 rounded">
+                  <div className="about-experience color-4 rounded">
                     <img 
                       className="img-fluid rounded" 
-                      src="/img/About/kite.png" 
+                      src="/img/About/ipswhite.png" 
                       alt="KITE Logo" 
                       loading="lazy" 
                       onLoad={(e) => e.target.parentNode.classList.add('loaded')}
